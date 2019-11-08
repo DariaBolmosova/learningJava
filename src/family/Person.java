@@ -8,7 +8,7 @@ public class Person {
   private int year_of_birthday;
   private String color_of_eye;
 
-    public Person(String gender, int year_of_birthday, String color_of_eye) {
+    Person(String gender, int year_of_birthday, String color_of_eye) {
         this.gender = gender;
         this.year_of_birthday = year_of_birthday;
         this.color_of_eye = color_of_eye;
@@ -23,8 +23,8 @@ public class Person {
     }
 
     public void setGender(String gender) {
-        List<String> list = Arrays.asList("мужской ", "женский");
-        if (list.contains("мужской"+"женский")) {
+        List<String> list = Arrays.asList("мужской ","женский");
+        if (list.contains(gender)){
             this.gender=gender;
         }else {
             this.gender="error";
