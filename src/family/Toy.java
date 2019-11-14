@@ -12,9 +12,12 @@ public class Toy {
         this.company=company;
 
     }
+
     public int getSize(){
         return width*hight;
 }
+
+
      public String getPrice(){
        if (company.equals("Chicco")){
            this.price="Very hight price";

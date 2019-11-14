@@ -13,6 +13,10 @@ public class Person {
         this.year_of_birthday = year_of_birthday;
         this.color_of_eye = color_of_eye;
     }
+    public Person(String gender, int year_of_birthday) {
+        this.gender = gender;
+        this.year_of_birthday = year_of_birthday;
+    }
 
     public String getColor_of_eye() {
         return this.color_of_eye;
