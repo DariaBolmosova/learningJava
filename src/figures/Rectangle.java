@@ -1,16 +1,16 @@
 package figures;
 
 public class Rectangle implements Comparable<Rectangle> {
-    private int width ;
-    private int hight;
+    protected int a ;
+    protected int b;
 
-    public Rectangle(int width, int hight) {
-        this.width = width;
-        this.hight = hight;
+    public Rectangle(int a, int b) {
+        this.a = a;
+        this.b = b;
     }
 
     public int getSquare(){
-    return width*hight;
+    return this.a*this.b;
     }
 
     @Override
@@ -20,7 +20,7 @@ public class Rectangle implements Comparable<Rectangle> {
 
     @Override
     public String toString() {
-        return "Square : " + getSquare();
+        return "Rectangle are : " + getSquare();
     }
 }
 

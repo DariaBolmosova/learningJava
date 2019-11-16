@@ -12,6 +12,9 @@ public class Main {
         figures.add(new Rectangle(2,3));
         figures.add(new Rectangle(6,2));
         figures.add(new Rectangle(9,11));
+        figures.add(new Rhombus(2,1,3));
+        figures.add(new Square(2,2));
+        figures.add(new Square(6,2));
 
 
         for (Object element:figures) {
